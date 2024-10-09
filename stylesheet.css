@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    background-color: #ffffff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0px solid #b6b1b1;
+    box-shadow: 0px 3px 9px #e6e2e2;
+    width: 100%;
+
+}
+
+.myntra_logo {
+    height: 45px;
+}
+
+.logo_container {
+    margin-left: 4%;
+}
+
+.action_bar {
+    margin-right: 4%;
+}
+
+.nav_bar {
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav_bar a {
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #353a3d;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    padding: 28px 0px;
+    border-bottom: 5px solid #ffffff;
+    margin-right: 20px;
+
+}
+
+.nav_bar a:hover {
+    border-bottom: 4px solid #f54e77;
+}
+
+.nav_bar a sup {
+    color: #ff3f6c;
+    font-size: 8px;
+}
+
+.search_bar {
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    width: 30%;
+    height: 40px;
+
+}
+
+.search_input {
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+
+}
+
+.search_icon {
+    background-color: #f5f5f6;
+    box-sizing: content-box;
+    height: 20px;
+    padding: 10px;
+    color: #282c3f;
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+    margin-left: 20px;
+
+}
+
+.action_bar {
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+    margin-right: 10px
+}
+
+.action_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #696e79;
+    font-size: 17px;
+
+
+}
+
+.action_name {
+    font-size: 12px;
+    font-weight: 700;
+    color: #333436;
+
+}
+
+.banner_img {
+    width: 100%
+}
+
+.banner {
+    margin: 40px 0;
+}
+
+.category_heading-1 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .15em;
+    margin: 30px 0 30px 30px;
+    color: #3e4152;
+    max-height: 1.5em;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container_img {
+    width: 200px;
+}
+
+.category_heading-2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 30px 0 10px 30px;
+    color: #3e4152;
+    max-height: 1.5em;
+}
+
+.category_img {
+    width: 200px;
+}
+
+.category_item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.footer_container {
+    display: flex;
+    background-color: #eee3e3;
+    justify-content: space-around;
+    align-items: start;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    flex-wrap: nowrap;
+}
+
+.online-shop {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 120px;
+    margin: 20px;
+    min-height: 120px;
+    padding: 15px;
+}
+
+.online-shop a {
+    text-decoration: none;
+    color: #66696e;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.customer-policie {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 180px;
+    min-height: 140px;
+    margin: 20px;
+    padding: 15px;
+    color: #66696e;
+
+}
+
+.customer-policie p {
+    color: #292a2b;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.customer-policie a {
+    text-decoration: none;
+    color: #66696e;
+    font-size: 14px;
+    margin: 4px;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    margin-top: 10px;
+    padding: 30px 0 30px 0;
+    color: #3a3a3b;
+
+}
+
+.logo1 {
+    width: 130px;
+    margin-top: 30px;
+}
+
+.myntra-policie {
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.myntra-policie p {
+    color: #535457;
+    margin: 7px;
+
+
+}
+
+.garanty {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    padding: 12px;
+}
+
+.return {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.myntra-reserved {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #eee3e3;
+    width: 100%;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #646974;
+    min-height: 70px;
+}
+
+.contact a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(27, 98, 180);
+}
